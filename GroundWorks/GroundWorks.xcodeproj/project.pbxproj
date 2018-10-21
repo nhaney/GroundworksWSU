@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AB7A84123959A3D2B6BC3ED /* Pods_GroundWorks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94624C8E460C328477CE53FB /* Pods_GroundWorks.framework */; };
+		FA270D552089C3BC009DFCDA /* goldstar.png in Resources */ = {isa = PBXBuildFile; fileRef = FA270D532089C3BA009DFCDA /* goldstar.png */; };
+		FA270D562089C3BC009DFCDA /* greystar.png in Resources */ = {isa = PBXBuildFile; fileRef = FA270D542089C3BB009DFCDA /* greystar.png */; };
+		FA270D5920919640009DFCDA /* groundworkslogo.png in Resources */ = {isa = PBXBuildFile; fileRef = FA270D5820919640009DFCDA /* groundworkslogo.png */; };
+		FA270D5B2091974A009DFCDA /* groundworkslogoFinal.png in Resources */ = {isa = PBXBuildFile; fileRef = FA270D5A20919749009DFCDA /* groundworkslogoFinal.png */; };
+		FA270D5D2091A725009DFCDA /* snowflakecolor.png in Resources */ = {isa = PBXBuildFile; fileRef = FA270D5C2091A725009DFCDA /* snowflakecolor.png */; };
+		FA270D5F2091A72B009DFCDA /* snowflakegrey.png in Resources */ = {isa = PBXBuildFile; fileRef = FA270D5E2091A72B009DFCDA /* snowflakegrey.png */; };
+		FA7C0B1A2088336700F78F57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C0B192088336700F78F57 /* AppDelegate.swift */; };
+		FA7C0B1C2088336700F78F57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C0B1B2088336700F78F57 /* ViewController.swift */; };
+		FA7C0B1F2088336700F78F57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7C0B1D2088336700F78F57 /* Main.storyboard */; };
+		FA7C0B222088336700F78F57 /* GroundWorks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA7C0B202088336700F78F57 /* GroundWorks.xcdatamodeld */; };
+		FA7C0B242088336700F78F57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA7C0B232088336700F78F57 /* Assets.xcassets */; };
+		FA7C0B272088336700F78F57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7C0B252088336700F78F57 /* LaunchScreen.storyboard */; };
+		FA7C0B2F2088483500F78F57 /* wsuMapPin.png in Resources */ = {isa = PBXBuildFile; fileRef = FA7C0B2E2088483500F78F57 /* wsuMapPin.png */; };
+		FA7C0B312089A5EC00F78F57 /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C0B302089A5EC00F78F57 /* ReportViewController.swift */; };
+		FAF19E74215BD88B00C4831F /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = FAF19E73215BD88B00C4831F /* awsconfiguration.json */; };
+		FAF19E7C215BE04400C4831F /* AWSAPI_HV10O66CTA_ResponseSchema.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF19E76215BE04400C4831F /* AWSAPI_HV10O66CTA_ResponseSchema.m */; };
+		FAF19E7D215BE04400C4831F /* AWSAPI_HV10O66CTA_RequestSchema.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF19E77215BE04400C4831F /* AWSAPI_HV10O66CTA_RequestSchema.m */; };
+		FAF19E7E215BE04400C4831F /* AWSAPI_HV10O66CTA_EmailGroundworksMobileHubClient.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF19E7B215BE04400C4831F /* AWSAPI_HV10O66CTA_EmailGroundworksMobileHubClient.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		227FE1752DF40E675C74F7EF /* Pods-GroundWorks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroundWorks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GroundWorks/Pods-GroundWorks.debug.xcconfig"; sourceTree = "<group>"; };
+		6434A073B2F8801A606BB24B /* Pods-GroundWorks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroundWorks.release.xcconfig"; path = "Pods/Target Support Files/Pods-GroundWorks/Pods-GroundWorks.release.xcconfig"; sourceTree = "<group>"; };
+		94624C8E460C328477CE53FB /* Pods_GroundWorks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GroundWorks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA270D532089C3BA009DFCDA /* goldstar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goldstar.png; sourceTree = "<group>"; };
+		FA270D542089C3BB009DFCDA /* greystar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greystar.png; sourceTree = "<group>"; };
+		FA270D5820919640009DFCDA /* groundworkslogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = groundworkslogo.png; sourceTree = "<group>"; };
+		FA270D5A20919749009DFCDA /* groundworkslogoFinal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = groundworkslogoFinal.png; sourceTree = "<group>"; };
+		FA270D5C2091A725009DFCDA /* snowflakecolor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snowflakecolor.png; sourceTree = "<group>"; };
+		FA270D5E2091A72B009DFCDA /* snowflakegrey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snowflakegrey.png; sourceTree = "<group>"; };
+		FA7C0B162088336700F78F57 /* GroundWorks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroundWorks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7C0B192088336700F78F57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA7C0B1B2088336700F78F57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA7C0B1E2088336700F78F57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA7C0B212088336700F78F57 /* GroundWorks.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GroundWorks.xcdatamodel; sourceTree = "<group>"; };
+		FA7C0B232088336700F78F57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA7C0B262088336700F78F57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA7C0B282088336800F78F57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA7C0B2E2088483500F78F57 /* wsuMapPin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wsuMapPin.png; sourceTree = "<group>"; };
+		FA7C0B302089A5EC00F78F57 /* ReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
+		FAF19E73215BD88B00C4831F /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		FAF19E76215BE04400C4831F /* AWSAPI_HV10O66CTA_ResponseSchema.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSAPI_HV10O66CTA_ResponseSchema.m; sourceTree = "<group>"; };
+		FAF19E77215BE04400C4831F /* AWSAPI_HV10O66CTA_RequestSchema.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSAPI_HV10O66CTA_RequestSchema.m; sourceTree = "<group>"; };
+		FAF19E78215BE04400C4831F /* AWSAPI_HV10O66CTA_EmailGroundworksMobileHubClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSAPI_HV10O66CTA_EmailGroundworksMobileHubClient.h; sourceTree = "<group>"; };
+		FAF19E79215BE04400C4831F /* AWSAPI_HV10O66CTA_RequestSchema.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSAPI_HV10O66CTA_RequestSchema.h; sourceTree = "<group>"; };
+		FAF19E7A215BE04400C4831F /* AWSAPI_HV10O66CTA_ResponseSchema.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSAPI_HV10O66CTA_ResponseSchema.h; sourceTree = "<group>"; };
+		FAF19E7B215BE04400C4831F /* AWSAPI_HV10O66CTA_EmailGroundworksMobileHubClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSAPI_HV10O66CTA_EmailGroundworksMobileHubClient.m; sourceTree = "<group>"; };
+		FAF19E7F215BE06100C4831F /* Bridging_Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridging_Header.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA7C0B132088336700F78F57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB7A84123959A3D2B6BC3ED /* Pods_GroundWorks.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96AC89D763E77ED56EA77593 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94624C8E460C328477CE53FB /* Pods_GroundWorks.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E6FB9A00A9988713B909950 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				227FE1752DF40E675C74F7EF /* Pods-GroundWorks.debug.xcconfig */,
+				6434A073B2F8801A606BB24B /* Pods-GroundWorks.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FA270D572089C3C4009DFCDA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FA270D5820919640009DFCDA /* groundworkslogo.png */,
+				FA270D5A20919749009DFCDA /* groundworkslogoFinal.png */,
+				FA270D542089C3BB009DFCDA /* greystar.png */,
+				FA270D532089C3BA009DFCDA /* goldstar.png */,
+				FA7C0B2E2088483500F78F57 /* wsuMapPin.png */,
+				FA270D5C2091A725009DFCDA /* snowflakecolor.png */,
+				FA270D5E2091A72B009DFCDA /* snowflakegrey.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		FA7C0B0D2088336700F78F57 = {
+			isa = PBXGroup;
+			children = (
+				FA7C0B182088336700F78F57 /* GroundWorks */,
+				FA7C0B172088336700F78F57 /* Products */,
+				9E6FB9A00A9988713B909950 /* Pods */,
+				96AC89D763E77ED56EA77593 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA7C0B172088336700F78F57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA7C0B162088336700F78F57 /* GroundWorks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA7C0B182088336700F78F57 /* GroundWorks */ = {
+			isa = PBXGroup;
+			children = (
+				FA270D572089C3C4009DFCDA /* Images */,
+				FA7C0B192088336700F78F57 /* AppDelegate.swift */,
+				FAF19E7F215BE06100C4831F /* Bridging_Header.h */,
+				FA7C0B1B2088336700F78F57 /* ViewController.swift */,
+				FA7C0B1D2088336700F78F57 /* Main.storyboard */,
+				FA7C0B302089A5EC00F78F57 /* ReportViewController.swift */,
+				FA7C0B232088336700F78F57 /* Assets.xcassets */,
+				FA7C0B252088336700F78F57 /* LaunchScreen.storyboard */,
+				FA7C0B282088336800F78F57 /* Info.plist */,
+				FA7C0B202088336700F78F57 /* GroundWorks.xcdatamodeld */,
+				FAF19E73215BD88B00C4831F /* awsconfiguration.json */,
+				FAF19E75215BE04400C4831F /* Api */,
+			);
+			path = GroundWorks;
+			sourceTree = "<group>";
+		};
+		FAF19E75215BE04400C4831F /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				FAF19E76215BE04400C4831F /* AWSAPI_HV10O66CTA_ResponseSchema.m */,
+				FAF19E77215BE04400C4831F /* AWSAPI_HV10O66CTA_RequestSchema.m */,
+				FAF19E78215BE04400C4831F /* AWSAPI_HV10O66CTA_EmailGroundworksMobileHubClient.h */,
+				FAF19E79215BE04400C4831F /* AWSAPI_HV10O66CTA_RequestSchema.h */,
+				FAF19E7A215BE04400C4831F /* AWSAPI_HV10O66CTA_ResponseSchema.h */,
+				FAF19E7B215BE04400C4831F /* AWSAPI_HV10O66CTA_EmailGroundworksMobileHubClient.m */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA7C0B152088336700F78F57 /* GroundWorks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7C0B2B2088336800F78F57 /* Build configuration list for PBXNativeTarget "GroundWorks" */;
+			buildPhases = (
+				1F348C453E9D196613B0C0BF /* [CP] Check Pods Manifest.lock */,
+				FA7C0B122088336700F78F57 /* Sources */,
+				FA7C0B132088336700F78F57 /* Frameworks */,
+				FA7C0B142088336700F78F57 /* Resources */,
+				74CC99672030EBA0BB3D9418 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GroundWorks;
+			productName = GroundWorks;
+			productReference = FA7C0B162088336700F78F57 /* GroundWorks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA7C0B0E2088336700F78F57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Nigel Haney :-)";
+				TargetAttributes = {
+					FA7C0B152088336700F78F57 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FA7C0B112088336700F78F57 /* Build configuration list for PBXProject "GroundWorks" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA7C0B0D2088336700F78F57;
+			productRefGroup = FA7C0B172088336700F78F57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA7C0B152088336700F78F57 /* GroundWorks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA7C0B142088336700F78F57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7C0B2F2088483500F78F57 /* wsuMapPin.png in Resources */,
+				FA270D552089C3BC009DFCDA /* goldstar.png in Resources */,
+				FA270D562089C3BC009DFCDA /* greystar.png in Resources */,
+				FA270D5B2091974A009DFCDA /* groundworkslogoFinal.png in Resources */,
+				FA7C0B272088336700F78F57 /* LaunchScreen.storyboard in Resources */,
+				FAF19E74215BD88B00C4831F /* awsconfiguration.json in Resources */,
+				FA270D5F2091A72B009DFCDA /* snowflakegrey.png in Resources */,
+				FA270D5920919640009DFCDA /* groundworkslogo.png in Resources */,
+				FA270D5D2091A725009DFCDA /* snowflakecolor.png in Resources */,
+				FA7C0B242088336700F78F57 /* Assets.xcassets in Resources */,
+				FA7C0B1F2088336700F78F57 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F348C453E9D196613B0C0BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GroundWorks-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74CC99672030EBA0BB3D9418 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GroundWorks/Pods-GroundWorks-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSAPIGateway/AWSAPIGateway.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSLambda/AWSLambda.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSMobileClient/AWSMobileClient.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAPIGateway.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSLambda.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileClient.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GroundWorks/Pods-GroundWorks-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA7C0B122088336700F78F57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7C0B312089A5EC00F78F57 /* ReportViewController.swift in Sources */,
+				FAF19E7D215BE04400C4831F /* AWSAPI_HV10O66CTA_RequestSchema.m in Sources */,
+				FA7C0B1C2088336700F78F57 /* ViewController.swift in Sources */,
+				FA7C0B1A2088336700F78F57 /* AppDelegate.swift in Sources */,
+				FA7C0B222088336700F78F57 /* GroundWorks.xcdatamodeld in Sources */,
+				FAF19E7C215BE04400C4831F /* AWSAPI_HV10O66CTA_ResponseSchema.m in Sources */,
+				FAF19E7E215BE04400C4831F /* AWSAPI_HV10O66CTA_EmailGroundworksMobileHubClient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA7C0B1D2088336700F78F57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA7C0B1E2088336700F78F57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA7C0B252088336700F78F57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA7C0B262088336700F78F57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA7C0B292088336800F78F57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA7C0B2A2088336800F78F57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA7C0B2C2088336800F78F57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 227FE1752DF40E675C74F7EF /* Pods-GroundWorks.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F9DW8KBRBE;
+				INFOPLIST_FILE = GroundWorks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = swagmoney.GroundWorks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/macbook/Desktop/GroundWorks/GroundWorks/Bridging_Header.h;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA7C0B2D2088336800F78F57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6434A073B2F8801A606BB24B /* Pods-GroundWorks.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F9DW8KBRBE;
+				INFOPLIST_FILE = GroundWorks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = swagmoney.GroundWorks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/macbook/Desktop/GroundWorks/GroundWorks/Bridging_Header.h;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA7C0B112088336700F78F57 /* Build configuration list for PBXProject "GroundWorks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7C0B292088336800F78F57 /* Debug */,
+				FA7C0B2A2088336800F78F57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA7C0B2B2088336800F78F57 /* Build configuration list for PBXNativeTarget "GroundWorks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7C0B2C2088336800F78F57 /* Debug */,
+				FA7C0B2D2088336800F78F57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FA7C0B202088336700F78F57 /* GroundWorks.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA7C0B212088336700F78F57 /* GroundWorks.xcdatamodel */,
+			);
+			currentVersion = FA7C0B212088336700F78F57 /* GroundWorks.xcdatamodel */;
+			path = GroundWorks.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FA7C0B0E2088336700F78F57 /* Project object */;
+}
