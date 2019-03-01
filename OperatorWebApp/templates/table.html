@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<table id="displayTable" class="display" style="width:100%">
+			<thead>
+				<tr><th class="headerCell">Report ID</th><th class="headerCell">Ranking</th><th class="headerCell">Time Reported</th><th class="headerCell">Location</th><th class="headerCell">Status</th><th class="headerCell">Detail View</th>
+			</thead>
+			<tbody>
+			{% for report in reportList%}
+					<tr>
+						<th>
+							{{ report['reportID'] }}
+						</th>
+						<th>
+							{{ report['ranking'] }}
+						</th>
+						<th>
+							{{ report['timeReported'] }}
+						</th>
+						<th>
+							{{ report['location'] }}
+						</th>
+						<th class="rowStatus">
+							{{ report['currentStatus'] }}
+						</th>
+						<th>
+							<a href="/reports/{{report['reportID']}}">More Info</a>
+						</th>
+					</tr>
+			{% endfor %}
+			</tbody>
+	</table>
+</html>

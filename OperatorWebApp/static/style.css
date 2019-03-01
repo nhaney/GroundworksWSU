@@ -1,0 +1,54 @@
+tr{
+	border: 1px solid black;
+}
+
+th{
+	text-align: left;
+}
+
+header{
+	background:#333;
+	color:#fff;
+	padding:10px;
+	text-align: center;
+	border-bottom: 4px #000 solid;
+	margin-bottom: 10px;
+}
+
+#selectedButton{
+	color: #4CAF50; /* Green */
+}
+
+#buttonDiv{
+	background-color: #777;
+	display: inline-block;
+}
+
+#tableButton{
+	margin:0 auto;
+	display:block;
+}
+
+#bottomDiv{
+	display: flex;
+	overflow: hidden;
+}
+
+#photo{
+	flex: 1;
+  	width: 500;
+  	height: 600;
+}
+
+#imgDiv{
+	display:block;
+}
+
+.flip{
+	transform: rotate(90deg);
+	margin-left: 100px;
+}
+
+body{
+	background-color: lightgrey;
+}

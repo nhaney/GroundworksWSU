@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>GroundWorks Operator</title>
+		<link rel = "stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+		<!-- DATA TABLES -->
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='jquery.dataTables.css') }}">
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+		<script type="text/javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+		<script type="text/javascript" src="{{ url_for('static', filename='table.js') }}"></script>
+	</head>
+
+	<body>
+		<header>
+			<h1>GroundWorks Operator View</h1>
+			<h2 id="viewDescriptor">All Reports</h2>	
+		</header>
+		<button id="tableButton">Change Table Mode</button>
+		<div id="tableDiv">Table loading...</div>
+		<button id="refreshButton">Refresh Table</button>
+	</body>
+
+</html>

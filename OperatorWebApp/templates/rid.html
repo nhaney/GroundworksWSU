@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Report {{ json['reportID'] }}</title>
+		<link rel = "stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+		<script type="text/javascript" src="{{ url_for('static', filename='report.js') }}"></script>
+	</head>
+	<body>
+		<header>
+			<h1>More information about Report #{{ json['reportID'] }}</h1>
+		</header>
+		<a href="/">Return to table.</a>
+		<hr>
+
+		<table>
+			<tr>
+				<th>Reporter: {{ json['whoReported'] }}</th>
+			</tr>
+			<tr>
+				<th>Ranking: {{ json['ranking'] }} / 5</th>
+			</tr>
+			<tr>
+				<th>Description: {{ json['description'] }}</th>
+			</tr>
+			<tr>
+				<th>Time Reported: {{ json['timeReported'] }}</th>
+			</tr>
+			<tr>
+				<th>Location: {{ json['location'] }}</th>
+			</tr>
+			<tr>
+				<th>Status: <span id="statusText">{{ json['currentStatus'] }}</span></th>
+			</tr>
+		</table>
+
+		<div id="buttonDiv">
+			<h2>Click here to change status of this report</h2>
+			{% if json['currentStatus'] == 'active' %}
+				<button class="statusbutton" id="selectedButton">active</button><button class="statusbutton">completed</button><button class="statusbutton">ignored</button><button class="statusbutton">in progress</button>
+			{% elif json['currentStatus'] == 'in progress' %}
+				<button class="statusbutton">active</button><button class="statusbutton">completed</button><button class="statusbutton">ignored</button><button id="selectedButton" class="statusbutton">in progress</button>
+			{% elif json['currentStatus'] == 'ignored' %}
+				<button class="statusbutton">active</button><button class="statusbutton">completed</button><button id="selectedButton" class="statusbutton">ignored</button><button class="statusbutton">in progress</button>
+			{% elif json['currentStatus'] == 'completed' %}
+				<button class="statusbutton">active</button><button id="selectedButton" class="statusbutton">completed</button><button class="statusbutton">ignored</button><button class="statusbutton">in progress</button>
+			{% endif %}
+		</div>
+		<button id="flipButton">Rotate Image</button>
+		<hr>
+		<div id="bottomDiv">
+			<div id="map">
+				<iframe
+  					width="600"
+  					height="450"
+  					frameborder="0" style="border:0"
+  					src="{{ mapURL }}" allowfullscreen>
+				</iframe>
+			</div>
+			<div id="imgDiv">
+				{% if 'photo' in json %}
+					<a href="{{ json['photo'] }}"><img id="photo" height="600" width="500" src="{{ json['photo'] }}"></img></a>
+				{% else %}
+					<p>No image for this report</p>
+				{% endif %}
+
+			</div>
+			
+			
+
+		
+		<!-- DUMMY ELEMENTS BELOW -->
+		<p id="rid" style="display:none">{{ json['reportID'] }}</p>
+		<p id="location" style="display:none">{{json['location'] }}</p>
+
+		<script type="text/javascript" charset="utf8" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.2.min.js"></script>
+	</body>
+</html>
