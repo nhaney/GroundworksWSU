@@ -68,9 +68,9 @@ def createMapURL(location):
 	for an embed google map
 	Usage:
 	>>> createMapURL("700 Stadium Way")
-	''https://www.google.com/maps/embed/v1/place?key=AIzaSyBHlbUx2lsxVbzX2emKuwYDSZpcyORLkBs&q=700+Stadium+Way+Pullman+WA'
+	''https://www.google.com/maps/embed/v1/place?key=*******&q=700+Stadium+Way+Pullman+WA'
 	'''
-	url = 'https://www.google.com/maps/embed/v1/place?key=AIzaSyBHlbUx2lsxVbzX2emKuwYDSZpcyORLkBs&'
+	url = 'https://www.google.com/maps/embed/v1/place?key=*******&'
 	# we append the general region to make sure result is in pullman
 	# if this app was running in a different area/school, generalRegion would need to be changed
 	query = {'q' : location+generalRegion }
